@@ -1,4 +1,4 @@
-For an example of the spatial correlation calculation for Tumor CD73 expression and Monocyte CD39 expression, download CD73NatComm_Coy2021_CyCIF_TMAdata.mat from ____________ and run example_spatcorr.m in MATLAB. Runtime should be within a couple minutes.
+For an example of the spatial correlation calculation for Tumor CD73 expression and Monocyte CD39 expression, download CD73NatComm_Coy2021_CyCIF_TMAdata.mat from (URL pending) and run example_spatcorr.m in MATLAB. Runtime should be within a couple minutes.
 
 corr_knn2.m is the core function for computing spatial correlations using the kNN algorithm and Pearson correlations.
 
