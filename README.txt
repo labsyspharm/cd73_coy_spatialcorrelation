@@ -25,3 +25,7 @@ TCGA_GBM_immune_analysis.html includes TCGA bulk full-length RNA-seq data analys
 _________________________________________________________________
 
 cycif-msi.py was used to generate a datatable from (URL pending) for comparing CyCIF and MSI results. The required python packages are listed in requirements_cycif_msi.txt . 
+
+_________________________________________________________________
+KMcurve_fig.m is used to generate survival curves from CD73NatComm_Coy2021_CyCIF_TMAdata.mat .
+subtype_comp_fig.m generates boxplot figures of a few gross cell-types from CD73NatComm_Coy2021_CyCIF_TMAdata.mat .
