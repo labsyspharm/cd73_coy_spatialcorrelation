@@ -1,4 +1,4 @@
-For an example of the spatial correlation calculation for Tumor CD73 expression and Monocyte CD39 expression, download CD73NatComm_Coy2021_CyCIF_TMAdata.mat from (URL pending) and run example_spatcorr.m in MATLAB. Runtime should be within a couple minutes.
+For an example of the spatial correlation calculation for Tumor CD73 expression and Monocyte CD39 expression, download CD73NatComm_Coy2021_CyCIF_TMAdata.mat from https://www.synapse.org/#!Synapse:syn31840602 and run example_spatcorr.m in MATLAB. Runtime should be within a couple minutes.
 
 corr_knn2.m is the core function for computing spatial correlations using the kNN algorithm and Pearson correlations.
 
@@ -10,7 +10,7 @@ This code has been tested on a MATLAB v2018a on a Windows 10 OS.
 
 _________________________________________________________________
 
-Similar spatial correlation analyses were repeated on CHOP TMA data, which can be found in CD73NatComm_Coy2021_CyCIF_CHOPTMAdata.mat from (URL pending).
+Similar spatial correlation analyses were repeated on CHOP TMA data, which can be found in CD73NatComm_Coy2021_CyCIF_CHOPTMAdata.mat from https://www.synapse.org/#!Synapse:syn31840603.
 
 CHOPTMA_spatcorrs.m computes all the spatial correlations on the CHOP TMA subsequently considered in this study.
 
@@ -24,7 +24,7 @@ TCGA_GBM_immune_analysis.html includes TCGA bulk full-length RNA-seq data analys
 
 _________________________________________________________________
 
-cycif-msi.py was used to generate a datatable from (URL pending) for comparing CyCIF and MSI results. The required python packages are listed in requirements_cycif_msi.txt . 
+cycif-msi.py was used to generate a datatable from https://www.synapse.org/#!Synapse:syn30804043 for comparing CyCIF and MSI results. The required python packages are listed in requirements_cycif_msi.txt . 
 
 _________________________________________________________________
 KMcurve_fig.m is used to generate survival curves from CD73NatComm_Coy2021_CyCIF_TMAdata.mat .
